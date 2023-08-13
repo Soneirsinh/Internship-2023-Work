@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Color Change (CCC)</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        /* body {
+            color: #fff;
+            background-color: #212121;
+        } */
+
+        .mainBox {
+            align-items: center;
+            position: absolute;
+            left: 10%;
+            top: 5%;
+            width: 70%;
+            height: 50%;
+        }
+        .colorBox {
+            height: 80vh;
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+            /* border: none!important; */
+            /* outline:none ; */
+            cursor: pointer;
+            transition:.15s ease all;
+            /* box-shadow: inset -8rem -.6rem 9rem rgba(0,0 */
+            /* ,0,.5); */
+        }
+        .colors{
+            width: 10%;
+            height: 10%;
+        }
+        #Grey{
+            background-color: grey;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+        #green{
+            background-color: green;
+        }
+        #blue{
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainBox">
+        <h1>Select Your Favourite color</h1>
+        <div class="colorBox">
+            <div class="colors" id="Grey">Grey</div>
+            <div class="colors" id="yellow">Yellow</div>
+            <div class="colors" id="green">Green</div>
+            <div class="colors" id="blue">Blue</div>
+        </div>
+    </div>
+    <script>
+        const grey = document.getElementById('Grey');
+        const yellow = document.getElementById('yellow');
+        const green = document.getElementById('green');
+        const blue = document.getElementById('blue');
+        const body = document.body;
+
+
+
+        grey.addEventListener("click",function(e){
+            body.style.backgroundColor = 'grey'
+        })
+        yellow.addEventListener("click",function(e){
+            body.style.backgroundColor = 'yellow'
+        })
+        green.addEventListener("click",function(e){
+            body.style.backgroundColor = 'green'
+        })
+        blue.addEventListener("click",function(e){
+            body.style.backgroundColor = 'blue'
+        })
+
+
+        // function backColorGrey()
+        // {
+        //     console.log(green);
+        //     body.style.backgroundColor = 'grey';
+        // }
+        // function backColorYellow()
+        // {
+        //     body.style.backgroundColor = 'yellow';
+        // }
+        // function backColorGreen()
+        // {
+        //     body.style.backgroundColor = 'green';
+        // }
+        // function backColorBlue()
+        // {
+        //     body.style.backgroundColor = 'blue';
+        // }
+    </script>
+</body>
+
+</html>

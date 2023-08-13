@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change background color Continues</title>
+    <style>
+        /* body{
+            background-color: black;
+            color: white;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button id="btn1">Start</button>
+        <button id="btn2">Stop</button>
+    </div>
+</body>
+<script>
+    const body = document.querySelector('body')
+    document.getElementById('btn1').addEventListener('click', function () {
+
+        function changeBgContinue() {
+            body.style.backgroundColor = 'grey'
+            body.style.backgroundColor = 'yellow'
+            body.style.backgroundColor = 'green'
+            body.style.backgroundColor = 'blue'
+        }
+        setInterval(changeBgContinue(), 1000)
+        document.getElementById('btn2').addEventListener('click', function () {
+            clearInterval(changeBgContinue)
+            body.style.backgroundColor = 'white'
+        })
+    })
+</script>
+
+</html>

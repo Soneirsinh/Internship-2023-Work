@@ -1,0 +1,106 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1D4D80;
+    position: sticky;
+    top: 0;
+}
+
+.logo img {
+    z-index: 999;
+}
+
+.Left-Logo i {
+    color: white;
+    margin-right: 15px;
+}
+
+
+.Left-Logo img {
+    border: 2px solid white;
+    border-radius: 25px 25px 25px 25px;
+    align-items: center;
+}
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    background-color: #1D4D80;
+    padding-top: 20px;
+    /* top: 80px; */
+    min-width: 190px;
+    max-width: 190px;
+}
+ul li:hover {
+    
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.712), rgba(255, 255, 255, 0));
+}
+
+.bot .innerbtn {
+    background-color: #1D4D80;
+}
+
+.Middle-Content {
+    background-color: #D5E5F7;
+}
+
+.cont {
+    background-color: #D5E5F7;
+}
+
+.Content-Header h1 {
+    color: #1D4D80;
+}
+
+.Content-Header p {
+    color: #1D4D80;
+}
+
+.cont .Content-Header .HeadBtn {
+    background-color: #1D4D80;
+    color: white;
+    padding: 9px 34px;
+    float: right;
+    margin-top: -77px;
+}
+
+.cont .Content-Header i {
+    margin-right: 10px;
+}
+
+.box1 {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.box1 span {
+    color: orange;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.tab {
+    margin-top: 35px;
+}
+
+table tbody .TabWhite {
+    background-color: white;
+    color: black;
+    height: 55px;
+}
+
+table tbody .TabWhite iconify-icon {
+    margin-left: 3px;
+}
+
+table tbody tr .TabBot {
+    color: white;
+    background-color: orange;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

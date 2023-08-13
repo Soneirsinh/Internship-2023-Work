@@ -1,0 +1,180 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    background-color: #1D4D80;
+    position: sticky;
+    top: 0;
+}
+
+.logo img {
+    z-index: 999;
+}
+
+.Left-Logo i {
+    color: white;
+    margin-right: 15px;
+}
+
+.Left-Logo img {
+    border: 2px solid white;
+    border-radius: 25px 25px 25px 25px;
+    align-items: center;
+}
+
+.sidebar {
+    position: fixed;
+    background-color: #1D4D80;
+}
+.blue{
+    background-color: #1D4D80;
+}
+/* ul li {
+    width: 10px;
+} */
+.nav-pills li a:hover {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.712), rgba(255, 255, 255, 0));
+}
+
+.bot .innerbtn {
+    background-color: #1D4D80;
+}
+
+.Middle-Content {
+    background-color: #D5E5F7;
+    /* height: 100%; */
+}
+
+.Middle-Content .Content-Header h1 {
+    color: #002852;
+    font-size: 40px;
+}
+
+.Middle-Content .Content-Header p {
+    color: #002852;
+    font-size: 40px;
+}
+
+.line1 {
+    /* border: 2px solid rgb(19, 6, 6); */
+    background-color: #1D4D80;
+}
+
+.line1 h1 {
+    color: white;
+}
+
+hr {
+    color: white;
+}
+
+.Middle-Content .line1 .btm {
+    color: white;
+    background-color: orange;
+    margin-top: -35px;
+    float: right;
+}
+
+.dates {
+    display: flex;
+}
+
+.dates p {
+    margin-bottom: 5px;
+}
+
+.line1 .dates .to {
+    margin-left: 16%;
+}
+
+.line1 .dates .days {
+    margin-left: 15%;
+
+}
+
+.line1 p {
+    color: white;
+}
+
+.line1 .dates .days input {
+    padding: 3px;
+    border-radius: 7px;
+    position: relative;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+.line1 .dates .from input {
+    padding: 3px;
+    border-radius: 7px;
+    position: relative;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+.line1 .dates .to input {
+    padding: 3px;
+    border-radius: 7px;
+    position: relative;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+.line1 i {
+    position: absolute;
+    color: white;
+    padding: 5px;
+}
+
+.textArea {
+    margin-top: 28px;
+}
+
+.textAreaBody p {
+    margin-top: 5%;
+}
+
+.textArea{
+    margin-left: 10px;
+    width: 94%;
+    height: 400px
+}
+
+.line1 .can {
+    background-color: white;
+    color: orange;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .btm1 {
+    color: white;
+    background-color: orange;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (width:1518px){
+    .textArea{
+        width: 70%; 
+        height: 200px;
+    }
+}
+/* @media (width:1518px){
+    .textArea{
+        width: 40%; 
+        height: 100px;
+    }
+} */

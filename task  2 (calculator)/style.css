@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    height: 100vh;
+    /* Adjust the height to your needs */
+}
+
+.content {
+    border-radius: 15px;
+    background-color: white;
+    width: 30%;
+    align-items: center;
+
+    /* Your content styles go here */
+}
+
+
+tr td button {
+    padding: 7px;
+    margin: 5px 10px 5px 5px;
+}
+
+tr td button:hover {
+    color: red;
+    background-color: yellow;
+}
+
+/* button {
+    padding: 7px;
+    margin: 5px 10px 5px 5px;
+} */
